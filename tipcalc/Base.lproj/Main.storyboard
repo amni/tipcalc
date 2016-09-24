@@ -14,35 +14,35 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xiw-0s-dXA">
-                                <rect key="frame" x="57" y="113" width="38" height="21"/>
+                                <rect key="frame" x="57" y="174" width="38" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CEp-p3-asM">
-                                <rect key="frame" x="152" y="113" width="38" height="21"/>
+                                <rect key="frame" x="152" y="174" width="38" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="oV4-Nb-RJK">
-                                <rect key="frame" x="57" y="171" width="38" height="21"/>
+                                <rect key="frame" x="57" y="240" width="38" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="awP-ZQ-mh3">
-                                <rect key="frame" x="141" y="284" width="49" height="21"/>
+                                <rect key="frame" x="141" y="353" width="49" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <color key="textColor" red="0.98359784031413611" green="0.98359784031413611" blue="0.98359784031413611" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="UnK-gu-iPp">
-                                <rect key="frame" x="69" y="402" width="183" height="29"/>
+                                <rect key="frame" x="69" y="98" width="183" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="15%"/>
@@ -56,12 +56,12 @@
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" id="t0O-aR-ozw">
-                                <rect key="frame" x="20" y="245" width="280" height="7"/>
+                                <rect key="frame" x="20" y="314" width="280" height="7"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" id="F9f-SI-ycA">
-                                <rect key="frame" x="169" y="107" width="126" height="30"/>
+                                <rect key="frame" x="169" y="168" width="126" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                                 <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
@@ -72,24 +72,79 @@
                                 </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ltI-ko-qsO">
-                                <rect key="frame" x="184" y="168" width="97" height="24"/>
+                                <rect key="frame" x="184" y="237" width="97" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dKJ-yZ-rak">
-                                <rect key="frame" x="42" y="326" width="237" height="43"/>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dKJ-yZ-rak">
+                                <rect key="frame" x="71" y="395" width="178" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
                                 <color key="textColor" red="0.98057100785340312" green="0.98057100785340312" blue="0.98057100785340312" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="GG8-fh-pHX" appends="YES" id="qZl-KC-cqM"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="sOc-23-TkL">
+                                <rect key="frame" x="-58" y="395" width="237" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                <color key="textColor" red="0.98057100789999996" green="0.98057100789999996" blue="0.98057100789999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="N7q-RG-Fy1">
-                                <rect key="frame" x="152" y="168" width="38" height="21"/>
+                                <rect key="frame" x="152" y="237" width="38" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="per person" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YPh-qY-RiN">
+                                <rect key="frame" x="214" y="488" width="91" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZjE-S8-Ewj">
+                                <rect key="frame" x="96" y="489" width="17" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="kdg-Rf-zXs" appends="YES" id="PDO-oz-gkZ"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LI5-GD-vPm">
+                                <rect key="frame" x="15" y="489" width="17" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="bfV-Cw-Bcs" appends="YES" id="Leo-gh-r1v"/>
+                                </connections>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6dL-pa-3Sz">
+                                <rect key="frame" x="110" y="478" width="101" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="27"/>
+                                <color key="textColor" red="0.98057100789999996" green="0.98057100789999996" blue="0.98057100789999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zUb-yI-mKU">
+                                <rect key="frame" x="37" y="482" width="47" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="32"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -108,16 +163,34 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="billCurrencyLabel" destination="CEp-p3-asM" id="CEH-pd-rbt"/>
                         <outlet property="billField" destination="F9f-SI-ycA" id="n9w-Ee-WKM"/>
-                        <outlet property="tipLabel" destination="ltI-ko-qsO" id="Uug-qN-fn0"/>
+                        <outlet property="minusLabel" destination="ZjE-S8-Ewj" id="1hZ-i2-lcQ"/>
+                        <outlet property="numberPplLabel" destination="zUb-yI-mKU" id="LGB-Em-IFa"/>
+                        <outlet property="perPersonLabel" destination="YPh-qY-RiN" id="E20-xX-lgO"/>
+                        <outlet property="plusLabel" destination="LI5-GD-vPm" id="atn-9W-AZu"/>
+                        <outlet property="splitLabel" destination="6dL-pa-3Sz" id="S6L-gU-bcM"/>
+                        <outlet property="tipCurrencyLabel" destination="N7q-RG-Fy1" id="c6Q-GG-wXs"/>
+                        <outlet property="tipLabel" destination="ltI-ko-qsO" id="Q0V-yp-bO7"/>
                         <outlet property="tipSegment" destination="UnK-gu-iPp" id="IMt-Lb-ROW"/>
+                        <outlet property="totalCurrencyLabel" destination="sOc-23-TkL" id="qq8-0M-Ucj"/>
                         <outlet property="totalLabel" destination="dKJ-yZ-rak" id="aLb-Tx-k4H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="GG8-fh-pHX">
                     <connections>
-                        <action selector="onTap:" destination="BYZ-38-t0r" id="qYz-eX-p2K"/>
+                        <action selector="calculateTip:" destination="BYZ-38-t0r" id="xAz-TZ-mxu"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="kdg-Rf-zXs">
+                    <connections>
+                        <action selector="onTapOnMinusLabel:" destination="BYZ-38-t0r" id="at0-uD-BXA"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="bfV-Cw-Bcs">
+                    <connections>
+                        <action selector="onTapOnTotalLabel:" destination="BYZ-38-t0r" id="Gcu-B7-NeU"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
