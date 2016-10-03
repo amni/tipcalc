@@ -20,6 +20,13 @@
                                 <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Custom Tip % " lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5KA-5J-cPr">
+                                <rect key="frame" x="20" y="100" width="123" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CEp-p3-asM">
                                 <rect key="frame" x="152" y="174" width="38" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -42,12 +49,13 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="UnK-gu-iPp">
-                                <rect key="frame" x="69" y="98" width="183" height="29"/>
+                                <rect key="frame" x="51" y="96" width="219" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="15%"/>
                                     <segment title="18%"/>
                                     <segment title="20%"/>
+                                    <segment title="Custom "/>
                                 </segments>
                                 <color key="tintColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -147,6 +155,25 @@
                                 <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" id="dJu-e4-mBD">
+                                <rect key="frame" x="144" y="95" width="126" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingChanged" id="WNL-j7-SJR"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="P7Q-5t-n4H">
+                                <rect key="frame" x="282" y="94" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="-&gt;"/>
+                                <connections>
+                                    <action selector="onBackTouch:" destination="BYZ-38-t0r" eventType="touchDown" id="jPA-0v-0fI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.36843400170978902" green="1" blue="0.69275805536500912" alpha="1" colorSpace="calibratedRGB"/>
                         <gestureRecognizers/>
@@ -163,8 +190,11 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="backButton" destination="P7Q-5t-n4H" id="Qfs-Gb-BAY"/>
                         <outlet property="billCurrencyLabel" destination="CEp-p3-asM" id="CEH-pd-rbt"/>
                         <outlet property="billField" destination="F9f-SI-ycA" id="n9w-Ee-WKM"/>
+                        <outlet property="customTipField" destination="dJu-e4-mBD" id="x2W-qK-dnY"/>
+                        <outlet property="customTipLabel" destination="5KA-5J-cPr" id="k7h-Zg-tEZ"/>
                         <outlet property="minusLabel" destination="ZjE-S8-Ewj" id="1hZ-i2-lcQ"/>
                         <outlet property="numberPplLabel" destination="zUb-yI-mKU" id="LGB-Em-IFa"/>
                         <outlet property="perPersonLabel" destination="YPh-qY-RiN" id="E20-xX-lgO"/>
@@ -205,12 +235,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="0YE-bj-zjn">
-                                <rect key="frame" x="149" y="124" width="121" height="29"/>
+                                <rect key="frame" x="55" y="135" width="211" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="15%"/>
                                     <segment title="18%"/>
                                     <segment title="20%"/>
+                                    <segment title="Custom "/>
                                 </segments>
                                 <color key="tintColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -218,7 +249,7 @@
                                 </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default Tip" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CaJ-Ik-oIv">
-                                <rect key="frame" x="20" y="128" width="84" height="21"/>
+                                <rect key="frame" x="118" y="93" width="84" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="18"/>
                                 <color key="textColor" red="0.98359784029999997" green="0.98359784029999997" blue="0.98359784029999997" alpha="1" colorSpace="calibratedRGB"/>

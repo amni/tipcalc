@@ -58,11 +58,89 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tipcalc/ViewController.swift"
-            timestampString = "496442834.902628"
+            timestampString = "497158359.182381"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipcalc.ViewController.animatedLabels.getter : Swift.Array&lt;__ObjC.UILabel&gt;"
+                  moduleName = "tipcalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanni/Developer/tipcalc/tipcalc/ViewController.swift"
+                  timestampString = "497158404.487212"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipcalc.ViewController.animatedLabels.setter : Swift.Array&lt;__ObjC.UILabel&gt;"
+                  moduleName = "tipcalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanni/Developer/tipcalc/tipcalc/ViewController.swift"
+                  timestampString = "497158404.48744"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipcalc.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; tipcalc.ViewController"
+                  moduleName = "tipcalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanni/Developer/tipcalc/tipcalc/ViewController.swift"
+                  timestampString = "497158404.487571"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "1046">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "tipcalc.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;tipcalc.ViewController&gt;"
+                  moduleName = "tipcalc"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/alanni/Developer/tipcalc/tipcalc/ViewController.swift"
+                  timestampString = "497158404.487692"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "942">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tipcalc/ViewController.swift"
+            timestampString = "497158359.182381"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "ViewController"
             landmarkType = "3">
          </BreakpointContent>
@@ -74,13 +152,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "tipcalc/ViewController.swift"
-            timestampString = "496443044.128271"
+            timestampString = "497159081.714737"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "ViewController"
-            landmarkType = "3">
+            startingLineNumber = "155"
+            endingLineNumber = "155"
+            landmarkName = "calculateTip(_:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

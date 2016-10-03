@@ -11,6 +11,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var customTipLabel: UILabel!
+    @IBOutlet weak var customTipField: UITextField!
     @IBOutlet weak var billField: UITextField!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
@@ -26,6 +28,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var perPersonLabel: UILabel!
     
+    @IBOutlet weak var backButton: UIButton!
     @IBOutlet weak var minusLabel: UILabel!
     @IBOutlet weak var numberPplLabel: UILabel!
     var numberPpl = 1
@@ -37,6 +40,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        customTipField.hidden = true
+        customTipLabel.hidden = true
+        backButton.hidden = true
+        tipSegment.hidden = false
+
+        
+
         animatedLabels = [splitLabel, minusLabel, plusLabel, perPersonLabel, numberPplLabel]
         
         for label in animatedLabels{
@@ -122,13 +132,35 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func onBackTouch(sender: AnyObject) {
+        
+        tipSegment.hidden = false
+        customTipField.hidden = true
+        customTipLabel.hidden = true
+        backButton.hidden = true
+        tipSegment.selectedSegmentIndex = 0
+        calculateTip(self)
+    }
     
     @IBAction func calculateTip(sender: AnyObject?) {
         let tipPercentages = [0.15, 0.18, 0.20]
         let bill = Double(billField.text!) ?? 0
-        let tip = bill * tipPercentages [tipSegment.selectedSegmentIndex]
+        var tipPct = 0.15
+        if (tipSegment.selectedSegmentIndex == 3)
+        {
+            tipSegment.hidden = true
+            customTipField.hidden = false
+            customTipLabel.hidden = false
+            backButton.hidden = false
+            tipPct = (Double(customTipField.text!) ?? 0)/100
+        }
+        else {
+            tipPct = tipPercentages [tipSegment.selectedSegmentIndex]
+
+        }
+        let tip = bill * tipPct
         let total = bill + tip
-        
+
         calculateSplit(total)
         
         tipLabel.text = String(format: "%.2f", tip)
